@@ -1,10 +1,21 @@
 import { useState } from 'react'
+import ButtonUser from './components/RedButtonUser'
+import Header from './components/Header'
+import SalesCard from './components/SalesCard'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>Olá Mundo</h1>
+    <>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
 
