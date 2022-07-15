@@ -33,6 +33,7 @@ function SalesCard() {
       <h2 className="dsmeta-sales-title">Vendas</h2>
       <div className="row">
         <div className="dsmeta-form-control-container">
+          <label className="dsmeta-sales-title">Data Inicial:</label>
           <DatePicker
             selected={minDate}
             onChange={(date: Date) => setMinDate(date)}
@@ -41,6 +42,7 @@ function SalesCard() {
           />
         </div>
         <div className="dsmeta-form-control-container data2">
+        <label className="dsmeta-sales-title">Data Final:</label>
           <DatePicker
             selected={maxDate}
             onChange={(date: Date) => setMaxDate(date)}
