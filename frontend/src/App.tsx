@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import ButtonUser from './components/RedButtonUser';
 import Header from './components/Header';
 import SalesCard from './components/SalesCard';
 import { ToastContainer } from 'react-toastify';
