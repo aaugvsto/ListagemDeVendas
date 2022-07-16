@@ -1,1 +1,5 @@
-https://listagemdevendas.netlify.app
+VITE, SpringBoot, React, Yarn, API REST
+
+Uma listagem de vendas por vendedor com um botão interativo que envia mensagem para um número de telefone especifíco com os dados contidos na coluna da tabela.
+
+Acessar projeto: https://listagemdevendas.netlify.app
